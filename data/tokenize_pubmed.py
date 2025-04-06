@@ -21,7 +21,7 @@ if __name__ == "__main__":
     from datatrove.pipeline.tokens.merger import DocumentTokenizerMerger
     
     dic = {
-        "PubMed2":"/gpfs/users/langloishe/ai_studio/datasource/PubMed2_raw",
+        "PubMed2":"/ai_studio/datasource/PubMed2_raw",
     }
     for name, path in dic.items():
         dist_executor = SlurmPipelineExecutor(
