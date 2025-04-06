@@ -1,0 +1,23 @@
+# As of right now auto batch size doesn't work, so we use some default
+batch_size: 12
+generation: null
+logging:
+  output_dir: "/gpfs/workdir/langloishe/trained_models/benchmarks"
+  save_details: false
+  push_to_hub: false
+  public_run: false
+  results_org: null
+  tensorboard_metric_prefix: "eval"
+parallelism:
+  dp: 4
+  pp: 1
+  pp_engine: 1f1b
+  tp: 1
+  tp_linear_async_communication: false
+  tp_mode: ALL_REDUCE
+tasks:
+  dataset_loading_processes: 1
+  max_samples: 10
+  multichoice_continuations_start_space: null
+  num_fewshot_seeds: null
+  tasks: helm|mmlu|0|0,helm|mmlu:college_medicine|0|0,helm|mmlu:college_mathematics|0|0,helm|mmlu:high_school_biology|0|0,helm|mmlu:high_school_chemistry|0|0,helm|mmlu:virology|0|0,helm|hellaswag|0|0,leaderboard|winogrande|0|0
