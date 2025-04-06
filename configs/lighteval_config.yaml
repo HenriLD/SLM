@@ -2,7 +2,7 @@
 batch_size: 12
 generation: null
 logging:
-  output_dir: "/gpfs/workdir/langloishe/trained_models/benchmarks"
+  output_dir: "/trained_models/benchmarks"
   save_details: false
   push_to_hub: false
   public_run: false
