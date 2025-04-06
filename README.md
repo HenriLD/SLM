@@ -7,4 +7,4 @@ Supervised by: Celine Hudelot, Dominique Mariko
 
 The goal of the project is to determine the impact of the proportion of domain-specific in the mix at pre-training. Specifically, we examine the influence of different amounts of medical data for healthcare-related text generation tasks.
 
-[Huggingface](https://huggingface.co/collections/HenriLD/dataset-mix-for-pre-trained-slm-67a9df375c6e1a808af28bd4)
+[Huggingface](https://huggingface.co/collections/HenriLD/dataset-mix-for-pre-trained-slm-67a9df375c6e1a808af28bd4) [Models](https://huggingface.co/collections/HenriLD/smolrx-135m-67e2a2c98dd868113f009912)
